@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>用户信息</title>
+    <link rel="stylesheet" href="{{$static}}css/user_form.css"/>
+    <link rel="stylesheet" href="{{$static}}css/publicStyle.css"/>
+    <script type="text/javascript" src="{{$static}}js/lib/jquery-1.11.1.js"></script>
+</head>
+<body>
+<include file="./header" />
+<div class="user_form my_print">
+    <ul class="form_tab">
+        <li><a href="<php>echo U('user_info');</php>">用户信息</a></li>
+        <li><a href="<php>echo U('create_print');</php>">新建打印</a></li>
+        <li><a href="<php>echo U('history_order');</php>">我的打印</a>&emsp;<span>{{$length}}</span></li>
+    </ul>
+
+    <div class="color_bar">
+        <div class="red_bar"></div>
+    </div>
+
+    <form class="form_info" action="" method="post">
+        <table class="info_table">
+            <thead>
+            <tr>
+                <td>
+                    <input type="submit" class="btn confirm" value="确认修改" />
+                </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td id="username">
+                    <span>用户名 ：</span>
+                    <div><input type="text" name="nickname" maxlength="20" value="{{$list.nickname}}"/></div>
+                </td>
+            </tr>
+            <tr>
+                <td id="tel">
+                    <span>电话 ：</span>
+                    <div><input type="text" name="tel" maxlength="11" value="{{$list.uname}}" disabled="disabled" /></div>
+                </td>
+            </tr>
+            <tr>
+                <td id="sex">
+                    <span>性别 ：</span>
+                    <div>
+                    	<if condition="$list.sex eq 1">
+                    		<input type="radio" name="sex" value="1" checked="checked"/> 男
+                        <input type="radio" name="sex" value="0" /> 女
+                      <else />
+                      	<input type="radio" name="sex" value="1" /> 男
+                        <input type="radio" name="sex" value="0" checked="checked"/> 女
+                      </if>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td id="school">
+                    <span>学校 ：</span>
+                    <div><input type="text" name="school" maxlength="40" value="{{$list.school}}"/></div>
+                </td>
+            </tr>
+            <tr>
+                <td id="major">
+                    <span>专业 ：</span>
+                    <div><input type="text" name="major" maxlength="30" value="{{$list.major}}"/></div>
+                </td>
+            </tr>
+            <tr>
+                <td id="grade">
+                    <span>年级 ：</span>
+                    <div>
+                        <select name="grade">
+                        	<for start="0" end="5">
+                        		<if condition="$list.grade eq $i">
+                            <option value="{{$i}}" selected="selected">
+                            <else /><option value="{{$i}}">
+                            </if>
+                            	<switch name="i">
+                            		<case value="0">请选择年级</case>
+                            		<case value="1">大一</case>
+                            		<case value="2">大二</case>
+                            		<case value="3">大三</case>
+                            		<case value="4">大四</case>
+                            	</switch>
+                            </option>
+                          </for>
+                        <option value="-1">其它</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td id="mail">
+                    <span>邮箱 ：</span>
+                    <div><input type="email" name="email" maxlength="20" value="{{$list.email}}"/></div>
+                    <span id="error_mail">邮箱格式不正确！</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+
+</div>
+<include file="./footer" />
+<script type="text/javascript" src="{{$static}}js/publicScript.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        if ( $("input[type='email']").attr("type") == "email" ) return false;
+        $(".confirm").click(function() {
+            var search_str = /^[\w\-\.]+@[\w\-\.]+(\.\w+)+$/;
+            var email_val = $("input[type='email']").val();
+            if (!search_str.test(email_val) && email_val) {
+                $(".form_info").submit(function() { return false; });
+                $("#error_mail").css("display", "block");
+                $("input[type='email']").focus();
+                return false;
+            }
+        });
+    });
+</script>
+</body>
+</html>

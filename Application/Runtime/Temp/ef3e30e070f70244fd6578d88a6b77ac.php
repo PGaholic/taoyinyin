@@ -1,0 +1,3 @@
+<?php
+//000000000060a:10:{s:9:"site_name";s:21:"淘印印在线打印";s:13:"site_descript";s:54:"O2O在线打印平台，专注于免费打印业务。";s:12:"site_keyword";s:46:"淘印印,在线打印,打印,o2o,免费打印";s:10:"root_email";s:20:"master@taoyinyin.com";s:8:"icp_code";s:30:"备案号正在申请中。aaa";s:9:"stat_code";s:48:"&lt;script&gt;alert(1)&lt;/script&gt;&lt;img&gt;";s:8:"web_open";i:1;s:8:"reg_open";i:1;s:10:"print_open";i:1;s:8:"site_url";s:25:"http://www.taoyinyin.com/";}
+?>

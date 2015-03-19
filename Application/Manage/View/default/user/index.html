@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<include file="default/header" />
+<body>
+<form class="form-inline definewidth m20" method="get">  
+    用户名：
+    <input type="text" name="uname" class="abc input-default" placeholder="支持模糊查询" value="{{$Think.get.uname|htmlspecialchars}}">&nbsp;&nbsp;  
+    <button type="submit" class="btn btn-primary">查询</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" id="addnew">新增用户</button>
+</form>
+<table class="table table-bordered table-hover definewidth m10" >
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>手机号</th>
+        <th>邮箱</th>
+        <th>积分</th>
+        <th>学校</th>
+        <th>年级</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+        <volist name="user" id="u">
+	     <tr>
+         	<td>{{$u.uid}}</td>
+            <td>{{$u.uname}}</td>
+            <td>{{$u.email}}</td>
+            <td>{{$u.point}}</td>
+            <td>{{$u.school}}</td>
+            <td>{{$u.grade}}</td>
+            <td>
+                <php>$edit = U('edit', array('id' => $u['uid']));</php>
+                <a href="{{$edit}}">编辑</a>
+                  
+            </td>
+        </tr>
+        </volist>
+    </table>
+<div class="inline pull-right page">
+{{$page}}
+</div>
+
+</body>
+</html>
+<script>
+    $(function () {
+        
+		$('#addnew').click(function(){
+
+				window.location.href="add.html";
+		 });
+
+
+    });
+
+	function del(id)
+	{
+		
+		
+		if(confirm("确定要删除吗？"))
+		{
+		
+			var url = "index.html";
+			
+			window.location.href=url;		
+		
+		}
+	
+	
+	
+	
+	}
+</script>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<include file="default/header" />
+<body>
+<form class="form-inline definewidth m20" method="get">  
+    商户名称：
+    <input type="text" name="name" class="abc input-default" placeholder="查找打印店" value="{{$Think.get.name|htmlspecialchars}}">&nbsp;&nbsp;  
+    <button type="submit" class="btn btn-primary">查询</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" id="addnew">新增商户</button>
+</form>
+<table class="table table-bordered table-hover definewidth m10" >
+    <thead>
+    <tr>
+        <th>账号</th>
+        <th>商户名称</th>
+        <th>地址</th>
+        <th>电话</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+        <volist name="shop" id="s">
+	     <tr>
+         	<td>{{$s.sname}}</td>
+            <td>{{$s.shopname}}</td>
+            <td>{{$s.address}}</td>
+            <td>{{$s.mobile}}</td>
+            <td>
+                <php>$editurl = U('edit', array('sid' => $s['sid']));</php>
+                  <a href="{{$editurl}}">编辑</a>  
+            </td>
+         </tr>
+        </volist>
+    </table>
+<div class="inline pull-right page">
+    {{$page}}
+</div>
+
+</body>
+</html>
+<script>
+    $(function () {
+        
+		$('#addnew').click(function(){
+
+				window.location.href="add.html";
+		 });
+
+
+    });
+
+	function del(id)
+	{
+		
+		
+		if(confirm("确定要删除吗？"))
+		{
+		
+			var url = "index.html";
+			
+			window.location.href=url;		
+		
+		}
+	
+	
+	
+	
+	}
+</script>

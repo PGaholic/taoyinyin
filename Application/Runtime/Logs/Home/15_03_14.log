@@ -1,0 +1,59 @@
+[ 2015-03-14T11:32:45+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004555s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with that of Think\Controller::error() D:\wamp\www\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+SQL: SHOW COLUMNS FROM `tyy_option` [ RunTime:0.036813s ]
+SQL: SELECT * FROM `tyy_option`  [ RunTime:0.002839s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005216s ]
+
+[ 2015-03-14T11:32:56+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004093s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with that of Think\Controller::error() D:\wamp\www\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015122s ]
+
+[ 2015-03-14T11:32:57+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/Sign/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020870s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with that of Think\Controller::error() D:\wamp\www\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007264s ]
+

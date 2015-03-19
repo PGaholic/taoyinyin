@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<include file="default/header" />
+<style type="text/css">
+input{width:40%;}
+</style>
+<body>
+<form method="post" class="definewidth m20">
+<input type="hidden" name="id" value="" />
+<table class="table table-bordered table-hover ">
+    <tr>
+        <td width="20%" class="tableleft">SEO设置</td>
+      	<td></td>
+    </tr>
+    <tr>
+        <td class="tableleft">标题</td>
+        <td ><input type="text" name="title" value="{{$option.site_name}}"/></td>
+    </tr>  
+    <tr>
+        <td class="tableleft">描述</td>
+        <td ><textarea rows="3" style="resize:none;width:40%;" name="description">{{$option.site_descript}}</textarea></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">关键词</td>
+        <td ><input type="text" name="keyword" value="{{$option.site_keyword}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">网站设置</td>
+        <td ></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">地址</td>
+        <td ><input type="text" name="domain" value="{{$option.site_url}}" placeholder="http://xxxx/" /></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">管理员邮箱</td>
+        <td ><input type="text" name="adminemail" value="{{$option.root_email}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">备案号</td>
+        <td ><input type="text" name="icpcode" value="{{$option.icp_code}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">统计代码</td>
+        <td ><textarea rows="5" style="resize:none;width:40%;" name="statcode">{{$option.stat_code}}</textarea></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">随机安全码</td>
+        <td ><input type="text" name="authkey" value="{{$auth_key}}" /></td>
+    </tr> 
+    <tr>
+        <php>$check = array('', '');$check[$option['web_open']] = 'checked';</php>
+        <td class="tableleft">网站开关</td>
+        <td >
+            <input type="radio" name="web_open" value="1" {{$check[1]}} /> 启用
+           <input type="radio" name="web_open" value="0" {{$check[0]}} /> 禁用
+        </td>
+    </tr>
+    <tr>
+        <php>$check = array('', '');$check[$option['reg_open']] = 'checked';</php>
+        <td class="tableleft">注册开关</td>
+        <td >
+            <input type="radio" name="reg_open" value="1" {{$check[1]}} /> 启用
+           <input type="radio" name="reg_open" value="0" {{$check[0]}} /> 禁用
+        </td>
+    </tr>
+    <tr>
+        <php>$check = array('', '');$check[$option['print_open']] = 'checked';</php>
+        <td class="tableleft">打印业务</td>
+        <td >
+            <input type="radio" name="print_open" value="1" {{$check[1]}} /> 启用
+           <input type="radio" name="print_open" value="0" {{$check[0]}} /> 禁用
+        </td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary">保存</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+    $(function () {       
+		$('#backid').click(function(){
+				window.location.href="index.html";
+		 });
+
+    });
+</script>

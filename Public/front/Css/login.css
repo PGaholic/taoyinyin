@@ -1,0 +1,244 @@
+.phone_certificate_frame,.login_frame{
+    width: 320px;
+    height: 380px;
+    margin: 120px auto 0 auto;
+}
+
+.form_input {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    background-color: #fff;
+
+}
+.form_input span{
+    font: 16px 'microsoft yahei';
+    color: #666;
+}
+
+.form_input_single {
+    position: relative;
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid #00a388;
+    line-height: 48px;
+}
+.form_input_single:last-child {
+    border:0;
+}
+.user_name,.user_passw{
+    width: 64%;
+    height: 42px;
+    font: 18px '黑体';
+    color: #333;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+
+}
+.login_state{
+    float: right;
+    width: 160px;
+    height: auto;
+    margin: 20px 0;
+    font: 12px 'microsoft yahei';
+    color: #fff;
+    text-align: right;
+}
+.login_state input{
+    display: inline;
+    margin: 0;
+}
+
+.submitButton{
+    width:100%;
+    margin: 10px 0;
+    height: 40px;
+    text-align: center;
+    clear: both;
+}
+.login_submit{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    font: 24px 'microsoft jhenghei','microsoft yahei';
+    color: #333;
+    letter-spacing: 18px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+/* 手机验证单独样式 */
+.send_captcha{
+    position: absolute;
+    top:0;
+    right: 6px;
+    width: 69px;
+    height: 26px;
+}
+.captcha_button{
+    width: 68px;
+    height: 24px;
+    border:0;
+    outline: 0;
+    line-height: 24px;
+    border-radius: 4px;
+    background-color: #009999;
+    box-shadow: 1px 2px 2px #999;
+    font:14px 'microsoft yahei';
+    color: #fff;
+    cursor: pointer;
+}
+
+.not_receive{
+    width: 90%;
+    height: auto;
+    margin:24px auto;
+    padding: 0;
+    text-align: center;
+    font: 18px 'microsoft yahei';
+    color: #fff;
+}
+.not_receive a{
+    color: #fff;
+}
+.user_phone{
+    width: 42%;
+    height: 42px;
+    font: 18px '黑体';
+    color: #333;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+}
+
+/* 验证成功 */
+.certificate_frame{
+    width: 683px;
+    height: 362px;
+    margin: 120px auto 0 auto;
+}
+
+.certificate_img{
+    width: 84px;
+    height: 84px;
+    margin: 19px auto;
+}
+.cetificate_text{
+    width: 420px;
+    height: 90px;
+    margin: 0 auto;
+    font:22px '黑体';
+    color: #fff;
+    line-height: 24px;
+}
+.certificate_return{
+    width: 262px;
+    height: 40px;
+    margin:30px auto 0 auto;
+}
+.certificate_return_button{
+    width: 262px;
+    height: 40px;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    font: 24px 'microsoft yahei';
+    color: #333;
+    letter-spacing: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 注册 */
+.sign_up_frame{
+    width: 320px;
+    height: 480px;
+    margin:50px auto 0 auto;
+}
+.user_captcha{
+    width: 80px;
+    height: 30px;
+    border:0;
+    outline: 0;
+}
+.sign_up_captcha{
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    width:70px;
+    height: 30px;
+    background-color: #abc;
+    line-height:0;
+}
+.sign_up_captcha img{
+    width: 100%;
+    height: 100%;
+}
+.sign_up_agree{
+    width: 90%;
+    margin:22px auto;
+    padding: 0;
+    font: 15px '黑体';
+    color: #fff;
+}
+input{
+    border: 0;
+    outline: 0;
+}
+input[type="text"]:disabled{
+    background-color: #fff;
+}
+#mobile-form{
+    display: none;
+}
+input#send-mcode:disabled{
+    background-color: #666;
+    cursor: not-allowed;
+}
+
+/*
+  给我们建议
+*/
+.suggest_frame{
+    width: 700px;
+    height: 450px;
+    margin:70px auto;
+    overflow: hidden;
+}
+.suggest_title{
+    width: 160px;
+    height: 34px;
+    margin:14px auto;
+    text-align: center;
+    font:22px '黑体';
+    color:#fff;
+}
+.suggest_form{
+    width: 660px;
+    height: 360px;
+    margin:20px auto;
+}
+.suggest_area{
+    width: 640px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+    font: 18px '黑体';
+    resize: none;
+}
+.suggest_submit{
+    display: block;
+    width: 160px;
+    height: 36px;
+    margin: 30px auto 0 auto;
+    font: 22px '黑体';
+    color: #666;
+    letter-spacing: 16px;
+}

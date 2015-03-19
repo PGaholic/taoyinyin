@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<include file="default/header" />
+
+<body>
+	<form class="form-inline definewidth m20" action="index.html" method="get">  
+    管理员账号：<input type="text" name="rolename" id="rolename"class="abc input-default" placeholder="" value="">&nbsp;&nbsp;  
+    <button type="submit" class="btn btn-primary">查询</button>&nbsp;&nbsp; <button type="button" class="btn btn-success" id="addnew">新增管理员</button>
+</form>
+<table class="table table-bordered table-hover definewidth m10" >
+    <thead>
+    <tr>
+        <th>账号</th>
+        <th>登录IP</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    	<volist name="admin" id="ad">
+    	<php>
+    		$url = U('/Manage/System/Edit', array('aid' => $ad['aid']));
+    	</php>
+	     <tr>
+            <td>{{$ad.name}}</td>
+            <td>{{$ad.lastip}}</td>
+            <td><a href="{{$url}}">编辑</a> | <a href="javascript:del('{{$ad.aid}}')">删除用户</a></td>
+         </tr>
+        </volist>
+    </table>
+		</body>
+		</html>
+
+<script>
+    $(function () {
+		$('#addnew').click(function(){
+				window.location.href="add.html";
+		 });
+    });
+
+	function del(id)
+	{
+		<php>$del = U('/Manage/System/Del');</php>
+		if(confirm("确定要删除吗？"))
+		{
+			var url = '{{$del}}?aid=' + id;
+			window.location.href=url;		
+		}	
+	}
+</script>

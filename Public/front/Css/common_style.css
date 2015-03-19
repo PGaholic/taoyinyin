@@ -1,0 +1,39 @@
+
+.full_screen{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('../img/public_img/public_bg.jpg') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.out_frame{
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #555;
+    background: #00a388;
+}
+.frame_title{
+    width: 100%;
+    height: 56px;
+    background-image: -moz-linear-gradient(top, #fff, #dbdbdb); /* Firefox */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #dbdbdb)); /* Saf4+, Chrome */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff',endColorstr='#dbdbdb', gradientType='0'); /* IE*/
+    background-color: #eee;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font: 20px '微软雅黑';
+    color: #444;
+}
+.frame_title span{
+    position: relative;
+    top:15px
+}
+.frame_form{
+    width: 266px;
+    height: 300px;
+    margin:54px auto;
+}
+

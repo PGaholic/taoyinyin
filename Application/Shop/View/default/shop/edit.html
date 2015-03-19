@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<include file="default/header" />
+<body>
+<form method="post" class="definewidth m20">
+<input type="hidden" name="id" value="" />
+<table class="table table-bordered table-hover definewidth m10">
+    <tr>
+        <td width="10%" class="tableleft">账户</td>
+        <td >{{$shop.sname}}</td>
+    </tr>  
+    <tr>
+        <td class="tableleft">密码</td>
+        <td ><input type="password" name="upass" placeholder="不修改则不需填写" /></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">商户名称</td>
+        <td ><input type="text" name="shopname" value="{{$shop.shopname}}"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft">电话</td>
+        <td ><input type="text" name="mobile" value="{{$shop.mobile}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">地址</td>
+        <td ><input type="text" name="address" value="{{$shop.address}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">负责人姓名</td>
+        <td ><input type="text" name="boss" value="{{$shop.boss}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">邮箱</td>
+        <td ><input type="text" name="email" value="{{$shop.email}}"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft">简介</td>
+        <td><textarea name="detail" rows="5" style="width:40%;resize: none;">{{$shop.detail}}</textarea></td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary">保存</button>&nbsp;&nbsp;
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

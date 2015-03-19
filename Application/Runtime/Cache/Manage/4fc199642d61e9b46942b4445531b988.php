@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><b>管理员登陆页面</b>

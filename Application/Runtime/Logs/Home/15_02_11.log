@@ -1,0 +1,357 @@
+[ 2015-02-11T12:21:19+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_option` [ RunTime:0.053003s ]
+SQL: SELECT * FROM `tyy_option`  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2015-02-11T12:21:47+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/Index/uploadFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-11T12:21:47+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/Sign/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-11T12:21:57+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/Sign/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.071004s ]
+SQL: SELECT * FROM `tyy_user` WHERE ( uname=123 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/default/default/menu.html): failed to open stream: No such file or directory D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/default/default/footer.html): failed to open stream: No such file or directory D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-02-11T12:21:58+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/Sign/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-11T12:22:10+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/Sign/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `tyy_user` WHERE ( uname=112 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.009001s ]
+SQL: UPDATE `tyy_user` SET `logintime`=1423628530,`loginip`='127.0.0.1' WHERE `uid` = 18 AND `uname` = '112' [ RunTime:0.038002s ]
+
+[ 2015-02-11T12:22:11+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.009001s ]
+SQL: SELECT `uid` FROM `tyy_user` WHERE ( uname=112 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tyy_order` [ RunTime:0.070004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tyy_order` WHERE ( order_uid=18 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-02-11T12:22:17+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/User/user_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tyy_user` WHERE ( uname=112 )  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tyy_order` [ RunTime:0.009001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tyy_order` WHERE ( order_uid=18 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-11T12:22:29+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/User/create_print.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_option` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tyy_option`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.010000s ]
+SQL: SELECT `uid` FROM `tyy_user` WHERE ( uname=112 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tyy_order` [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tyy_order` WHERE ( order_uid=18 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-11T12:22:32+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.000000s ]
+SQL: SELECT `uid` FROM `tyy_user` WHERE ( uname=112 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tyy_order` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tyy_order` WHERE ( order_uid=18 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-11T12:22:37+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/User/create_upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+
+[ 2015-02-11T12:22:46+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/User/create_print.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.000000s ]
+SQL: SELECT `uid` FROM `tyy_user` WHERE ( uname=112 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file_id D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\UserController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `tyy_order` [ RunTime:0.015600s ]
+SQL: INSERT INTO `tyy_order` (`rcode`,`order_uid`,`order_address`,`order_sid`,`status`,`attach`,`time`,`order_money`,`message`,`finish_time`,`order_mobile`,`recvname`,`uniqid`) VALUES ('tyy54dad9165c4c1',18,'aaa',0,0,',',1423628566,0,'',0,'','','54dad8f2c9583') [ RunTime:0.078000s ]
+SQL: SELECT `uid` FROM `tyy_user` WHERE ( uname=112 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file_id D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\UserController.class.php 第 184 行.
+SQL: SELECT `rid` FROM `tyy_order` WHERE `order_uid` = 18 AND `uniqid` = '54dad8f2c9583' AND `attach` = ',' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file_id D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\UserController.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `tyy_order_attach` [ RunTime:0.078000s ]
+SQL: INSERT INTO `tyy_order_attach` (`oid`,`aid`,`file_num`,`paper_size`,`paper_color`,`is_double`,`print_range`,`print_block`) VALUES (53,null,1,'a4',0,2,'0',4) [ RunTime:0.000000s ]
+ERR: 1048:Column 'aid' cannot be null
+ [ SQL语句 ] : INSERT INTO `tyy_order_attach` (`oid`,`aid`,`file_num`,`paper_size`,`paper_color`,`is_double`,`print_range`,`print_block`) VALUES (53,null,1,'a4',0,2,'0',4)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-11T12:23:02+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/User/history_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.008000s ]
+SQL: SELECT `uid` FROM `tyy_user` WHERE ( uname=112 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tyy_order` [ RunTime:0.009001s ]
+SQL: SELECT `rid` FROM `tyy_order` WHERE ( order_uid=18 ) ORDER BY rid desc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tyy_order_attach` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tyy_order_attach` WHERE ( oid=53 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `tyy_order` WHERE ( rid=53 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file_name D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Runtime\Cache\Home\bcdf97bf290c6f18f1bf88470b97f0da.php 第 51 行.
+NOTIC: [8] Undefined index: paper_size D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Runtime\Cache\Home\bcdf97bf290c6f18f1bf88470b97f0da.php 第 52 行.
+NOTIC: [8] Undefined index: is_double D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Runtime\Cache\Home\bcdf97bf290c6f18f1bf88470b97f0da.php 第 53 行.
+NOTIC: [8] Undefined index: paper_color D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Runtime\Cache\Home\bcdf97bf290c6f18f1bf88470b97f0da.php 第 54 行.
+NOTIC: [8] Undefined index: address D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Runtime\Cache\Home\bcdf97bf290c6f18f1bf88470b97f0da.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2015-02-11T12:23:22+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/User/create_print.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.008001s ]
+SQL: SELECT `uid` FROM `tyy_user` WHERE ( uname=112 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tyy_order` [ RunTime:0.009000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tyy_order` WHERE ( order_uid=18 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2015-02-11T12:23:23+08:00 ] 127.0.0.1 /taoyinyin/CloudPrint/php/index.php/Home/User/user_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2048] Declaration of Home\Controller\BaseController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\xampp\htdocs\taoyinyin\CloudPrint\php\Application\Home\Controller\BaseController.class.php 第 72 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Common\functions.php 第 1191 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\taoyinyin\CloudPrint\php\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tyy_user` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `tyy_user` WHERE ( uname=112 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tyy_order` [ RunTime:0.009001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tyy_order` WHERE ( order_uid=18 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+

@@ -1,0 +1,205 @@
+/*library.css*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/index/figure_bg.jpg") repeat;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+
+.lib_show {
+    width: 100%;
+    height: 490px;
+    margin:0 auto;
+    padding: 0;
+    overflow: hidden;
+    background: url("../img/public_img/lib_bg.jpg") no-repeat;
+    cursor: default;
+}
+.show_content {
+    width: 87%;
+    margin: 208px auto 0;
+}
+.title {
+    width: 17%;
+    margin: 0;
+    margin-right: -1%;
+    font-size: 37px;
+    line-height: 37px;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    float: left;
+}
+.show_eg {
+    width: 12%;
+    height: 200px;
+    margin-left: 4%;
+    box-shadow: 0 0 2px 2px #D2D1D1;
+    background-color: #fff;
+    float: left;
+}
+.show_eg div {
+    width: 85%;
+    height: 176px;
+    margin: 12px auto;
+    display: table;
+}
+.show_eg div div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.show_eg p {
+    margin: 10px 0;
+    text-align: center;
+    color: #5a5a5a;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.eg1 {
+    background-color: #c7dd8e;
+}
+.eg2 {
+    background-color: #F49996;
+}
+.eg3 {
+    background-color: #8FC2DC;
+}
+.eg4 {
+    background-color: #FBC479;
+}
+.eg5 {
+    background-color: #D97EDC;
+}
+
+
+.lib_content {
+    margin: 50px 5.5% 0;
+}
+.selector select{
+    height: 32px;
+    margin-right: 3%;
+    padding: 0 22px 0 10px;
+    border: 1px solid #cbcbcb;
+    background-color: #eee;
+    color: #4a4a4a;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+}
+.btn {
+    height: 42px;
+    padding: 0 16px 0 42px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    font-family: SimHei;
+    font-size: 23px;
+    color: #6e6e6e;
+    cursor: pointer;
+    float: left;
+}
+.btn:hover {
+    background-color: #f5f5f5;
+}
+.new_print {
+    margin-left: -1px;
+    margin-right: 1.3%;
+    background-image: url(../img/public_img/lib_add.png);
+    background-repeat: no-repeat;
+    background-position: 6% 50%;
+    background-size: 24px 24px;
+
+}
+.share {
+    background-image: url(../img/public_img/lib_share.png);
+    background-repeat: no-repeat;
+    background-position: 6% 50%;
+}
+.content_table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: SimHei;
+}
+.content_table tr {
+    height: 48px;
+    background-color: #f5f5f5;
+}
+.content_table tr:nth-child(even) {
+    background-color: #fff;
+}
+.content_table thead th {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-family: SimHei;
+    font-weight: normal;
+    color: #181818;
+    font-size: 17px;
+ }
+.content_table thead tr th:first-child {
+    border-left: 1px solid #ccc;
+}
+.content_table thead tr th:last-child {
+    border-right: 1px solid #ccc;
+}
+.content_table thead td {
+    border: none;
+    border-bottom: 1px solid #ececec;
+    background-color: #fff;
+}
+.content_table tbody tr td {
+    border-bottom: 1px solid #ececec;
+    border-left: 1px solid #a0a0a0;
+    border-right: 1px solid #a0a0a0;
+    font-size: 16px;
+    color: #2b2b2b;
+}
+.content_table tbody tr td:first-child {
+    border-left: 1px solid #ececec;
+}
+.content_table tbody tr td:last-child {
+    border-right: 1px solid #ececec;
+}
+.content_table input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border-radius: 0;
+    background-color: #E3E3E3;
+    background-image: none;
+}
+
+#rt_top {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-top: 94px;
+    margin-right: 5.5%;
+    padding: 0;
+    border: none;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #535353;
+    float: right;
+    cursor: pointer;
+}
+#rt_top:hover {
+    background-color: #676767;
+}
+#rt_top p {
+    height: 100px;
+    margin: 0;
+    font-family: SimHei;
+    font-size: 45px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+}

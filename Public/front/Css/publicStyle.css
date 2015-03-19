@@ -1,0 +1,151 @@
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    font-family: 'microsoft yahei';
+}
+li{list-style-type: none}
+
+.hide{
+    display: none;
+}
+.mask{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333;
+    opacity: 0.5;
+}
+.red_font{
+    color:red;
+}
+.green_bg{
+    background-color: rgb(208,232,145);
+}
+
+/* 下拉条默认样式 */
+.grey_select{
+    background-color: #eee;
+    border: 0;
+    outline: 0;
+    color: #666;
+    text-indent: 4px;
+}
+
+
+/* 导航栏和页脚 */
+.footer,.header{
+    width: 100%;
+}
+
+
+
+/* 导航栏样式 */
+.navi_main{
+    width: 100%;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    background-color: #00a388;
+    box-shadow: 0 -2px 5px #aaa inset;
+}
+
+.taoyinyin_logo{
+    float: left;
+    width:420px;
+    height:40px;
+    margin:4px 16px;
+
+}
+.taoyinyin_logo img{
+    width: 320px;
+    height:40px;
+}
+
+/* 右侧注册登录窗口 */
+.navi_button{
+    float: right;
+    width:240px;
+    height: 30px;
+    margin:5px 0;
+    padding: 0;
+}
+.navi_log_in,.navi_sign_up{
+    float: left;
+    width: 90px;
+    height: 30px;
+    margin-right: 12px;
+    padding: 0;
+}
+.login_button,.sign_up_button{
+    width: 72px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 14px;
+    box-shadow: 5px 5px 5px #444;
+    cursor: pointer;
+
+}
+.login_button{
+    background:#eeeeee url("../img/public_img/log_in.png") no-repeat center;
+}
+.sign_up_button{
+    background:#eeeeee url("../img/public_img/sign_up.png") no-repeat center;
+}
+.login_button:hover,.sign_up_button:hover{
+    position: relative;
+    top:1px;
+    left: 1px;
+    box-shadow: 4px 4px 4px #444;
+}
+.login_button:active,.sign_up_button:active{
+    position: relative;
+    top:3px;
+    left: 3px;
+    box-shadow: 2px 2px 2px #444    ;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background-color: #00a388;
+}
+.about_web{
+    float: left;
+    width: 300px;
+    height: 24px;
+    margin: 16px 42px 0 42px;
+    padding: 0;
+    font: 16px 'microsoft yahei';
+    color: #fff;
+}
+.about_web a{
+    color: #fff;
+}
+.footer_logo{
+    float: right;
+    width: 115px;
+    height: 28px;
+    margin: 14px 20px 0 20px;
+
+}
+
+/* 动画效果 */
+@-webkit-keyframes twinkling{	/*透明度由0到1*/
+    0%{
+        opacity:0;				/*透明度为0*/
+    }
+    100%{
+        opacity:1;				/*透明度为1*/
+    }
+}
+
+.twinkle{
+    -webkit-animation: twinkling 0.2s infinite ease-in-out;
+}

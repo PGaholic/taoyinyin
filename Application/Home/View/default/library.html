@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="UTF-8" />
+     <title>淘印印 - 文库</title>
+
+     <link rel="stylesheet" type="text/css" href="../css/library.css" />
+ </head>
+
+ <body>
+    <div class="lib_show">
+        <div class="show_content">
+            <p class="title">近期热门：</p>
+            <div class="show_eg">
+                <div class="eg1">
+                    <div><p>《高等数学》</p><p>大二下</p></div>
+                </div>
+            </div>
+            <div class="show_eg">
+                <div class="eg2">
+                    <div><p>《复变函数》</p><p>大一下</p></div>
+                </div>
+            </div>
+            <div class="show_eg">
+                <div class="eg3">
+                    <div><p>《线性代数》</p><p>大一下</p></div>
+                </div>
+            </div>
+            <div class="show_eg">
+                <div class="eg4">
+                    <div><p>《数学分析》</p><p>大一下</p></div>
+                </div>
+            </div>
+            <div class="show_eg">
+                <div class="eg5">
+                    <div><p>《离散数学》</p><p>大一下</p></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="lib_content">
+        <form action="" method="get" class="selector">
+            <select id="sel_school">
+                <option name="school" value="xj">西安交通大学</option>
+                <option name="school" value="xd" selected>西安电子科技大学</option>
+            </select>
+            <select id="sel_grade">
+                <option name="grade" value="10">大一上</option>
+                <option name="grade" value="11">大一下</option>
+                <option name="grade" value="20">大二上</option>
+                <option name="grade" value="21" selected>大二下</option>
+                <option name="grade" value="30">大三上</option>
+                <option name="grade" value="31">大三下</option>
+                <option name="grade" value="40">大四上</option>
+                <option name="grade" value="41">大四下</option>
+            </select>
+            <select id="sel_academy">
+                <option name="academy" value="tongxin" selected>所有学院</option>
+                <option name="academy" value="jxj">计算机学院</option>
+                <option name="academy" value="jidian">机电院</option>
+            </select>
+        </form>
+
+        <table class="content_table">
+            <thead>
+                <tr>
+                    <th></th><th>文件名称</th><th>更新时间</th><th>下载次数</th><th>所属学院</th><th>描述</th>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <button class="btn new_print">新建打印任务</button>
+                        <button class="btn share">立即共享真题</button>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="article" />
+                    </td>
+                    <td>《高等数学》2</td> <td>2014.12.2</td> <td>132</td> <td>全校</td> <td>大一下期末考试2009-2013真题</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="article" />
+                    </td>
+                    <td>《复变函数》</td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="article" />
+                    </td>
+                    <td>《线性代数》</td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="article" />
+                    </td>
+                    <td>《数学分析》</td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="article" />
+                    </td>
+                    <td>《离散数学》</td><td></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <a id="rt_top" href="#">
+        <p>top</p>
+    </a>
+    <div class="clear"></div>
+
+    <script type="text/javascript" src="../js/library.js"></script>
+ </body>
+</html>

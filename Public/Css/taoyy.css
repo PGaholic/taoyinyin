@@ -1,0 +1,68 @@
+/*TaoYinyin.css*/
+
+/*订单状态下拉框*/
+.selector {
+	width: 100px;
+	height: 19px;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+/*批量操作label*/
+.tail {
+	display: inline;
+	margin: 0;
+	font-size: 13px;
+	cursor: auto;	
+	vertical-align: middle;
+}
+/*批量操作处下拉框*/
+.bottom_batch {
+	margin: 0 auto;
+	font-size: 13px;
+}
+/*删除按钮*/
+#delete {
+	float: right;
+}
+
+/*error页面样式*/
+.error_body {
+	background-color: #FFF;
+}
+.main {
+	width: 450px;
+	height: 250px;
+	margin: 100px auto;
+	background-color: #E8E9EE;
+	border: 1px solid #C3C3D6;
+	border-radius: 6px;
+}
+.header {
+	height: 50px;
+	background-position: top center;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.header span {
+	display: block;
+	margin-top: 7px;
+	margin-left: 7px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+}
+.content {
+	margin-top: 50px;
+}
+.main p {
+	width: 380px;
+	margin: 0px auto 10px;
+}
+.error_info {
+	height: 80px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	color: #43478e;
+	overflow: auto;
+}

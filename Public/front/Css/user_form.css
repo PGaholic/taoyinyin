@@ -1,0 +1,638 @@
+/* 订单公用属性 */
+.user_form{
+    width:1110px;
+    height: auto;
+    margin:20px auto;
+    padding: 0;
+}
+
+/* 头部选项卡 */
+.form_tab{
+    width:800px
+    height: 28px;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+.form_tab a{
+    color: #333;
+}
+.form_tab li{
+    float: left;
+    width: 148px;
+    height: 28px;
+    font: 20px '黑体';
+    color: #333;
+    line-height: 36px;
+    text-align: center;
+    border-right: 2px solid #e5e5e5;
+    cursor: pointer;
+
+}
+.form_tab li:last-child{
+    border-right: 0;
+}
+.form_tab li span{
+    color: #e43d08;
+}
+.color_bar{
+    position: relative;
+    width: 900px;
+    height: 2px;
+    margin:10px 0;
+    background-color: #e5e5e5;
+}
+.red_bar{
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background-color: #e43d08;
+}
+
+/* 新建打印 */
+.new_print{
+    position: relative;
+    width:168px;
+    height: 36px;
+    border:1px solid #c4c4c4;
+    font:20px '黑体';
+    color:#6e6e6e;
+    line-height: 36px;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+.new_print img{
+    position: relative;
+    top:4px;
+    left: 4px;
+}
+.classify_section{
+    width: 1110px;
+    height: 32px;
+    margin:8px 0;
+    border:1px solid #c4c4c4;
+    background-color: #eeeeee;
+    font-size: 14px;
+    color: #333;
+}
+.classify_section div{
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+/*各行宽度*/
+.column_first{
+    float: left;
+    width: 360px;
+}
+.column_second{
+    float: left;
+    width: 118px;
+}
+.column_third{
+    float: left;
+    width: 220px;
+}
+.column_fourth{
+    float: left;
+    width: 250px;
+}
+.column_fifth{
+    float: left;
+    width: 158px;
+}
+
+
+.mission_operate{
+    width: 440px;
+    height: 26px;
+ }
+.multi_choice,.delete_state div{
+    float: left;
+    width: 70px;
+    height: 24px;
+    margin-right: 12px;
+    border:1px solid #c4c4c4;
+    background-color: #eeeeee;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+}
+.all_choice_control{
+    position: relative;
+    top:2px;
+    width: 14px;
+    height: 14px;
+}
+.all_choice span{
+    position: relative;
+    top:0;
+}
+
+/* 单个订单信息统一样式 */
+.order_list{
+    width: 100%;
+    height: auto;
+    margin:4px 0;
+}
+.no_mission_img{
+    width: 80%;
+    height: auto;
+    margin:10px auto;
+}
+.no_mission_img img{
+    width: 100%;
+}
+.single_mission{
+    position:relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.order_header{
+    position: relative;
+    width: 100%;
+    height: 36px;
+    font: 14px 'microsoft yahei';
+    color: #333;
+    line-height: 36px;
+    border:1px solid #c4c4c4;
+    background-color: #eeeeee;
+}
+.single_order{
+    width: 1112px;
+    height: 100px;
+    border-left: 1px solid #c4c4c4;
+}
+.single_order>div{
+    height: 100px;
+    border-right: 1px solid #c4c4c4;
+    border-bottom:1px solid #c4c4c4;
+}
+.mission_intro{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+.mission_thumbnail{
+    float: left;
+    width: 60px;
+    height: 80px;
+    margin:9px;
+}
+.mission_thumbnail img{
+    width: 60px;
+    height: 80px;
+}
+.mission_name{
+    float: left;
+    width: 240px;
+    height: 50px;
+    margin:30px 0 0 0;
+    font-size: 14px ;
+}
+.mission_delete{
+    position: absolute;
+    bottom: 12px;
+    left: 82px;
+    font-size: 14px;
+    color:#444;
+    text-decoration: underline;
+}
+.single_mission_num,.single_mission_price,.single_mission_location{
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+}
+
+.set_paper_num{
+    width: 60px;
+    height: 18px;
+    font-size: 14px;
+    text-align: center;
+}
+/* 第三栏打印设置 */
+.single_mission_set{
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    line-height: 100px;
+}
+.set_range{
+    width: 220px;
+    height: 30px;
+    margin: 12px auto 0 auto;
+    line-height: 24px;
+}
+.print_page_min,.print_page_max{
+    width: 50px;
+}
+.print_page_min:disabled,.print_page_max:disabled{
+    border:1px solid #ccc;
+    background-color: #ccc;
+}
+.set_paper_size{
+    width: 220px;
+    height: 20px;
+    margin:2px auto;
+}
+.set_paper_detail{
+    width: 220px;
+    height: 20px;
+    margin:4px auto;
+}
+.single_mission_set select{
+    font-size: 12px;
+    width: 52px;
+
+}
+
+/*
+  待确认页面样式
+*/
+
+.order_postscript{
+    width: 700px;
+    height: 40px;
+    margin:40px auto;
+    padding: 0;
+    font: 14px 'microsoft yahei';
+    color: #333;
+}
+.order_person{
+    float: left;
+    width: 300px;
+    height: 50px;
+    line-height: 30px;
+
+}
+.pickup_info,.order_tel{
+    width: 140px;
+}
+.location_choice{
+    width: 180px;
+    height: 24px;
+    text-align: center;
+    font: 14px 'microsoft yahei';
+    color: #555;
+}
+.order_message{
+    float: right;
+    width: 360px;
+}
+.message_text{
+    width: 240px;
+    height: 50px;
+    resize: none;
+}
+.order_message label{
+    display: block;
+    float: left;
+    width: 60px;
+}
+
+.delete_checkbox{
+    position: absolute;
+    top:74px;
+    left: -40px;
+    width: 16px;
+    height: 16px;
+}
+
+.order_submit{
+    width: 280px;
+    height: 80px;
+    margin:80px auto;
+
+}
+.submit_order{
+    width: 260px;
+    height: 50px;
+    font: 34px '黑体';
+    color: #fff;
+    border:0;
+    outline: 0;
+    padding: 0;
+    box-shadow: 5px 5px 5px #666;
+    background-color: #ef6000;
+    cursor: pointer;
+}
+.submit_order:hover{
+    position: relative;
+    top:2px;
+    left: 2px;
+    box-shadow: 3px 3px 3px #666;
+}
+.submit_order:active{
+    position: relative;
+    top:4px;
+    left: 4px;
+    box-shadow: 1px 1px 1px #666;
+}
+
+/*
+    待打印页面
+*/
+.single_state{
+    width: 299px;
+    height: 90px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.state_text{
+    width: 200px;
+    height: 40px;
+    margin:36px auto;
+}
+
+/*
+    ‘新建打印’弹出层
+*/
+.new_popout_frame {
+    position:fixed;
+    height: 500px;
+    top: 60px;
+    left:20%;
+    right: 20%;
+    background-color: #fff;
+}
+.popout_title{
+    width: 100%;
+    height: 36px;
+    background-color: #00b395;
+    overflow: hidden;
+}
+.popup_title{
+    float: left;
+    width: 100px;
+    height: 26px;
+    margin:5px 16px;
+    font:18px 'microsoft yahei';
+    color: #fff;
+}
+.close_popout{
+    float: right;
+    width: 18px;
+    height: 18px;
+    margin:9px;
+    cursor: pointer;
+}
+.close_popout img{
+    width: 18px;
+    height: 18px;
+}
+.popout_file_info{
+    width: 100%;
+    font-size: 18px;
+    color: #444;
+    mso-cellspacing: 0;
+    border-spacing: 0;
+}
+.popout_file_info .col1{
+    width: 24%;
+    text-align: center;
+
+}
+.popout_file_info .col2{
+    width: 78%;
+    text-align: left;
+}
+.popout_file_info tr{
+    height: 36px;
+    vertical-align: middle;
+}
+.popout_file_info thead tr{
+    height: 140px;
+}
+.popout_file_info td{
+    padding-left: 30px;
+    border-bottom:1px solid #ccc;
+    border-left:1px solid #ccc;
+}
+.file_number{
+    width: 60px;
+    text-align: center;
+}
+.num_description{
+    font-size: 12px;
+}
+
+.new_upload{
+    position: relative;
+    color: #444;
+    text-decoration: underline;
+}
+.popout_new_file{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    height: 40px;
+}
+.new_order_submit{
+    width: 160px;
+    height: 36px;
+    margin:30px auto;
+}
+.submit_new{
+    width: 160px;
+    height: 34px;
+    border:0;
+    outline: 0;
+    background-color: #00b395;
+    font:20px '黑体';
+    color: #fff;
+    box-shadow: 4px 4px 4px #666;
+    cursor: pointer;
+}
+.submit_new:hover{
+    position:relative;
+    top:1px;
+    left: 1px;
+    box-shadow: 3px 3px 4px #666;
+}
+.submit_new:active{
+    position:relative;
+    top:3px;
+    left: 3px;
+    box-shadow: 1px 1px 1px #666;
+}
+
+/* 点击关闭弹出的警告窗口 */
+.close_warning,.submit_warning,.upload_warning_form,.upload_form{
+    position: fixed;
+    height: 240px;
+    top:140px;
+    left:30%;
+    right: 30%;
+    background-color: #fff;
+    z-index: 1;
+}
+.close_alert{
+    width: 90%;
+    height: 60px;
+    margin:60px auto 20px auto;
+    text-align: center;
+    font: 20px '黑体';
+}
+.close_button,.upload_botton{
+    width: 80%;
+    height: 30px;
+    margin:0 auto;
+    text-align: center;
+}
+.close_button button,.amend_order,.upload_botton button,.close_upload_warning,.upload_botton button{
+    width: 80px;
+    height: 30px;
+    font: 18px 'microsoft yahei';
+    background-color: #00b395;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+/* 下滑条变化 */
+.create_slide_bar{
+    position: relative;
+    left: 150px;
+}
+.history_slide_bar{
+    position: relative;
+    left: 300px;
+}
+/* 历史打印 */
+.history_first{
+    float: left;
+    width: 330px;
+}
+.history_second{
+    float: left;
+    width: 118px;
+}
+.history_third{
+    float: left;
+    width: 300px;
+}
+.history_fourth{
+    float: left;
+    width: 130px;
+}
+.history_fifth{
+    float: left;
+    width: 228px;
+}
+
+/*用户信息页面样式*/
+.info_table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    color: #2b2b2b;
+}
+.info_table tr td {
+    width: 100%;
+    height: 42px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #ECECEC;
+    vertical-align: middle;
+}
+.info_table thead tr td {
+    background-color: #fff;
+}
+.info_table tbody tr td:first-child {
+    border-left: 1px solid #ECECEC;
+}
+.info_table tbody tr td:last-child  {
+    border-right: 1px solid #ECECEC;
+}
+.info_table tbody tr:nth-child(even) td {
+    background-color: #fff;
+}
+.info_table .btn {
+    height: 24px;
+    border: 1px solid #C9C9C9;
+    background-color: #eee;
+    font-family: SimHei;
+    font-size: 15px;
+    color: #696969;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.info_table span {
+    display: block;
+    width: 84px;
+    height: 39px;
+    line-height: 39px;
+    text-align: right;
+    float: left;
+}
+.info_table div {
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 7px;
+    float: left;
+}
+.info_table tbody tr td input[type="text"],
+.info_table tbody tr td input[type="email"],
+.info_table tbody tr td select {
+    height: 25px;
+    padding-left: 4px;
+    border: none;
+    line-height: 23px;
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+}
+.info_table input[type="radio"] {
+    margin-top: 6px;
+}
+.info_table tbody tr:nth-child(odd) td input[type="text"],
+.info_table tbody tr:nth-child(odd) td input[type="email"],
+.info_table tbody tr:nth-child(odd) td select,
+.info_table tbody tr:nth-child(odd) td input:disabled {
+    background-color: #f5f5f5;
+}
+.info_table tbody tr:nth-child(even) td input:disabled {
+    background-color: #fff;
+}
+.info_table tbody tr td input[type="text"]:focus,
+.info_table tbody tr td input[type="email"]:focus,
+.info_table tbody tr td select:focus {
+    background-color: #fff;
+}
+#tel span {
+    background: url("../img/user_info/info_tel.png") no-repeat;
+    background-position: 6% 50%;
+}
+#sex span:first-child {
+    background: url("../img/user_info/info_sex.png") no-repeat;
+    background-position: 6% 50%;
+}
+#school span:first-child {
+    background: url("../img/user_info/info_school.png") no-repeat;
+    background-position: 6% 50%;
+}
+#major span:first-child {
+    background: url("../img/user_info/info_major.png") no-repeat;
+    background-position: 6% 50%;
+}
+#grade span:first-child {
+    background: url("../img/user_info/info_grade.png") no-repeat;
+    background-position: 6% 50%;
+}
+#mail span:first-child {
+    background: url("../img/user_info/info_mail.png") no-repeat;
+    background-position: 6% 50%;
+}
+#error_mail {
+    display: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    width: 150px;
+    color: #db5e21;
+}

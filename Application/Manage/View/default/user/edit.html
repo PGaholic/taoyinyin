@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<include file="default/header" />
+<body>
+<form method="post" class="definewidth m20">
+<input type="hidden" name="id" value="" />
+<table class="table table-bordered table-hover definewidth m10">
+    <tr>
+        <td width="10%" class="tableleft">ID</td>
+        <td>{{$user.uid}}</td>
+    </tr>
+    <tr>
+        <td class="tableleft">用户名（手机号）</td>
+        <td ><input type="text" name="uname" value="{{$user.uname}}"/></td>
+    </tr>  
+    <tr>
+        <td class="tableleft">密码</td>
+        <td ><input type="password" name="passwd" value="" placeholder="不修改请留空" /></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">邮箱</td>
+        <td ><input type="text" name="email" value="{{$user.email}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">地址</td>
+        <td ><input type="text" name="address" value="{{$user.address}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">学校</td>
+        <td ><input type="text" name="school" value="{{$user.school}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">年级</td>
+        <td ><input type="text" name="grade" value="{{$user.grade}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">积分</td>
+        <td ><input type="text" name="point" value="{{$user.point}}"/></td>
+    </tr> 
+    <tr>
+        <td class="tableleft">状态</td>
+        <td>
+            <if condition="($user.used eq 1)"><php>$used1='checked';$used0='';</php>
+            <else /><php>$used1='';$used0='checked';</php>
+            </if>
+            <input type="radio" name="used" value="1" {{$used1}}/> 启用
+            <input type="radio" name="used" value="0" {{$used0}}/> 禁用
+        </td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary" type="button">保存</button>&nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回列表</button>
+            <button type="button" class="btn btn-danger" name="delete" id="delete">删除</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+    $(function () {       
+		$('#backid').click(function(){
+				window.location.href="{{$default_page}}";
+		 });
+		$('#delete').click(function(){
+			if(confirm("确定要删除吗？")){
+				$("#form1").attr("action","");
+				$("#form1").submit();
+                <php>$delurl = U('del', array('id' => $user['uid']));</php>
+				var url = '{{$delurl}}';
+				window.location.href=url;	
+			}
+		});
+    });
+</script>

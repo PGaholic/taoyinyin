@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{$title}}</title>
+    <link rel="stylesheet" href="{{$static}}/css/login.css"/>
+    <link rel="stylesheet" href="{{$static}}/css/common_style.css"/>
+    <link rel="stylesheet" href="{{$static}}/css/publicStyle.css"/>
+    <script src="{{$static}}/js/lib/jquery-1.11.1.js"></script>
+</head>
+<body>
+<include file="default/menu" />
+<div class="full_screen">
+    <div class="out_frame certificate_frame">
+        <div class="frame_title">
+            <span>{{$title}}</span>
+        </div>
+        <div class="certificate_img">
+            <img src="{{$static}}/img/login/certificate_fail.png"/>
+        </div>
+        <div class="cetificate_text" style="text-align:center;">
+            {{$content}}
+        </div>
+        <div class="certificate_return">
+            <input type="button" class="certificate_return_button" value="返回" onclick="location.href='{{$jmp}}';" />
+        </div>
+    </div>
+</div>
+<include file="default/footer" />
+<script type="text/javascript" src="{{$static}}/js/publicScript.js"></script>
+</body>
+</html>
